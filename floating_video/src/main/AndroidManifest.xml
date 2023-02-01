@@ -6,10 +6,13 @@
     <uses-permission android:name="android.permission.FOREGROUND_SERVICE" />
 
     <application>
+
         <service
             android:name="com.xeinebiu.floating.video.VideoFloatingService"
             android:enabled="true"
             android:label="Floating Video"
             android:process=":floating_video" />
+
     </application>
+
 </manifest>
